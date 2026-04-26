@@ -6,9 +6,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
-    <div>
-        
+<body class="bg-gray-200">
+    <header class="bg-cyan-900 my-auto p-[12px]">
+        <h1 class="text-4xl font-bold text-white my-auto">Dictionary App</h1>
+    </header>
+    <main class="min-h-[450px] mx-[25px] my-[20px]">
+        <div class="flex mx-auto  flex-col xs:flex-row">
+        <input placeholder="search for any word" class="min-w-[80%] placeholder:italic placeholder:text-gray-500 p-5 bg-white h-[35px] rounded" type="text">
+        <button class="bg-cyan-900 p-2 text-white rounded ml-0 xs:ml-3 mt-5 xs:m-0">Search</button>
     </div>
+    <div class="mt-5 bg-white max-w-[80%] p-5 rounded shadow-md">
+        <h2 class=" text-2xl"><strong>Word: coding</strong></h2>
+        <p class="italic text-gray-400">verb</p>
+        <p class="text-gray-600 mt-2"><span class="font-bold font-black ">Meaning:</span>To write software programs.</p>
+         <p class="text-gray-600 mt-2"><span class="font-bold font-black ">Example:</span>I learned to code on an early home computer in 1980s.</p>
+          <p class="text-gray-600 mt-2"><span class="font-bold font-black ">Antonyms:</span>Not Found.</p>
+         <button class="bg-cyan-900 p-2 text-white rounded mt-2">Read More</button>
+    </div>
+    </main>
+    <footer class="bg-cyan-900 ">
+        <p class="text-center text-2xl text-white">© Made with 🤍 by Aayush Jat</p>
+    </footer>
 </body>
 </html>
